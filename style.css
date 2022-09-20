@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+
+*{
+	
+	font-family: 'Roboto', sans-serif;
+
+	padding:0;
+	margin:0;
+	border:0;
+	list-style: none;
+	text-decoration: none;
+	list-style: none;
+}
+
+
+
+label.logo{
+	left: -990px;
+	top:30px;
+	position: relative;
+	color:black;
+	padding:0 100px;
+
+}
+
+ ul{
+	float:right;
+	
+}
+ ul li{
+  	bottom:20px;
+	right:280px;
+	position:relative;
+	display:inline-block;
+	line-height: 80px;
+	margin:5px;
+}
+  ul li a{
+	color:black;
+	font-size:1.1em;
+	padding:7px 12px;
+	text-transform:uppercase;
+	transition:0.65s;
+
+
+}
+
+
+ ul  li a:hover{
+	color:red;
+	content: '';
+ 	position: relative;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+ 	border-bottom: 1px solid red;
+
+
+}
+
+body{background:repeat no-repeat center center fixed;
+	background-image: linear-gradient(to left,seagreen,#1A1A40);
+
+
+}
+
+#ib{
+	left:900px;
+	top: 220px;
+	height:550px;
+
+}
+#iska{
+	background-color: #2C25B1;
+	height:5px;
+	width:98px;
+	top: 350px;
+	left: 238px;
+}
+
+#kop{
+	bottom:500px;
+	left:228px;
+
+}
+#ko{color:gray;
+	bottom:460px;
+	left:230px;
+
+}
+#os{
+	border-radius: 10px 10px 10px 10px;
+	background-color: #2C25B1;
+	height:25px;
+	width:152px;
+	left: 228px;
+	padding: 10px;
+	padding-left: 10px;
+	transition:0.65s;
+	margin-top:-50px;
+}
+
+#os:hover{
+	background-color:turquoise;
+	color:red;
+
+	
+}
+a{	transition:0.65s;
+	text-decoration: none;
+	color:black;
+
+}
+
+a:hover{
+	color:red ;
+}
+
